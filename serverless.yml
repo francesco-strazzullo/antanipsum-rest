@@ -1,0 +1,17 @@
+service: antanipsum
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  antanipsum:
+    handler: index.get
+    events:
+      - http:
+          path: antanipsum/{paragraphs}
+          method: get
+          request: 
+            parameters: 
+              paths: 
+                paragraphs: false

@@ -1,0 +1,24 @@
+{
+  "name": "antanipsum-rest",
+  "version": "1.0.0",
+  "description": "Rest Api for antanipsum",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "serverless deploy"
+  },
+  "keywords": [
+    "Antani",
+    "Supercazzola"
+  ],
+  "author": "Francesco Strazzullo (francesco.strazzullo86@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2",
+    "lodash": "4.17.10",
+    "request": "2.87.0"
+  },
+  "devDependencies": {
+    "serverless": "1.27.3",
+    "standard": "11.0.1"
+  }
+}
